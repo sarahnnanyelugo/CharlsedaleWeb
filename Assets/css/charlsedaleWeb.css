@@ -5,6 +5,11 @@
     padding-top:5px;
     padding-bottom:5px;
 }
+.btn-primary{
+  background-color:rgb(6, 6, 73) !important;
+
+}
+
 #navbar{
     background-color:darkblue;
     overflow: hidden;
@@ -28,6 +33,54 @@
 #myLinks{
     float:right;
 }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #0439aa;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      background-color: #ffffff;
+      color:rgb(2, 2, 59);
+      border-bottom-right-radius:100%;
+      border-bottom-left-radius:100%;
+}
+
 
 .Pic{
     width:100%;
@@ -690,3 +743,199 @@ footer a{
     height:30px;
     /* padding-left:50px; */
 }
+
+
+/*PAGE TWO BEGINS*/
+
+
+.table{
+    margin-top:50px;
+    /* margin-left:20px; */
+
+}
+.table ul{
+    background-color:rgb(243, 243, 253);
+    list-style-type: none;
+    padding: 5; /* Remove padding */
+     margin-left: 0;
+    padding-bottom:60px;
+    padding-right:30px;
+
+}
+
+    .table ul li{
+    border-bottom: 1px solid rgb(129, 125, 125);
+    padding: 15px;
+}
+
+.table a{
+    color:black;
+    font-size:14px;
+    /* padding-top:50px; */
+
+}
+.table a:hover{
+    color:rgb(6, 6, 201);
+    font-weight:bold;
+}
+
+#tailor{
+    background-color:rgb(243, 243, 253);
+    margin-top:60px;
+    padding-top:60px;
+    padding-bottom:60px;
+
+}
+#tailor p{
+    float:right;
+
+}
+#schLs li{
+    margin-top:30px;
+}
+.month ul {list-style-type: none;}
+.month {
+    padding: 35px 25px;
+    width: 100%;
+    /* background: #1abc9c; */
+    text-align: center;
+  }
+  
+  /* Month list */
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  /* Previous button inside month header */
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  /* Next button */
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  /* Weekdays (Mon-Sun) */
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    /* background-color:#ddd; */
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Days (1-31) */
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 85px;
+    font-size:18px;
+    /* color: #777; */
+  }
+
+  /* Highlight the "current" day */
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+  }
+
+
+
+
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: rgb(8, 8, 80);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top:20px;
+    font-size:12px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size:11px;
+    color: rgb(8, 8, 80);
+
+  }
+  .panel span{
+      float:right;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: rgb(8, 8, 80);
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+
+
+  }
+
+
+  .blueCircle{
+    margin-top:30px;
+    margin-left:-40px;
+  }
+  .blueCircle span{
+      padding-top:-30px;
+      margin-left:60px
+
+
+  }
+
+  .blueNum{
+      /* border:solid 1px blue; */
+      height:25px;
+      width:25px;
+      color:white;
+      padding:20px;
+      border-radius:100%;
+      background-color:rgb(6, 6, 73);
+      font-weight:bold;
+
+  }
+
